@@ -1,0 +1,60 @@
+:root{
+  --font-primary:"Big Shoulders Display";
+  --font-secundary:"Lexend Deca";
+  --card-one:hsl(31, 77%, 52%);
+  --card-two:hsl(184, 100%, 22%);
+  --card-three:hsl(179, 100%, 13%);
+  --color-primary:hsl(0, 0%, 95%);
+  --color-secundary:hsla(0, 0%, 100%, 0.75);
+}
+
+body{
+  font-family:var(--font-primary);
+  background-color: #F2F2F2;
+  margin: 10px;
+
+}
+h1{
+  color:var(--color-primary);
+}
+p{
+  color:var(--color-secundary)
+  
+}
+h1,p{
+  margin: 0;
+  padding: 0;
+}
+p{
+  font-family: var(----font-primary);
+  
+ 
+  
+}
+a{
+  text-decoration: none;
+  
+}
+
+.b1color{
+  color:var(--card-one);
+}
+.b1color:hover{
+  background-color: initial;
+  border: 1px solid white;
+  color:white
+}
+.b2color{
+  color:var(--card-two);
+}
+.b3color{
+  color: var(--card-three);
+}
+
+
+.b1color:hover,.b1color:active,.b2color:hover,.b2color:active,.b3color:hover,.b3color:hover{
+  background-color: initial;
+  border: 1px solid white;
+  color:white
+}
+
